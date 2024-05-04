@@ -10,9 +10,9 @@ namespace ShoppingProject.Models
     {
         public AppUser()
         {
-           // Messages = new HashSet<Message>();
+            Messages = new HashSet<Message>();
         }
         // 1 - * AppUSer || Message
-       // public virtual ICollection<Message> Messages { get; set; }
+       public virtual ICollection<Message> Messages { get; set; }
     }
 }
