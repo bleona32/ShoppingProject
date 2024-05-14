@@ -12,6 +12,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using ShoppingProject.Data;
+using ShoppingProject.Areas.Admin.ViewModels;
 
 namespace ShoppingProject.Areas.Admin.Controllers
 {
